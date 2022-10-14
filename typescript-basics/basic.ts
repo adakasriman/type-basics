@@ -23,3 +23,4 @@ let somename: string = "MANU";
 
 somename = "sriman"; // can't assign number to somename
 
+    
