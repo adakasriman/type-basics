@@ -1,6 +1,6 @@
 // TypeScript is a superSet of javaScript.
 
-// --> It is mainly focosed on static type checking(data type checking)
+// --> It is mainly focosed on ``static type checking``(data type checking)
 // --> It supports ES6 , class based objects
 // --> It is readability and predectability.
 
@@ -23,4 +23,3 @@ let somename: string = "MANU";
 
 somename = "sriman"; // can't assign number to somename
 
-    
