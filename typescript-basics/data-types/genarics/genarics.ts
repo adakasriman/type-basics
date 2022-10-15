@@ -14,8 +14,8 @@ let storingFunctionVariable = genericsExample<number>(12345); //calling function
 console.log(storingFunctionVariable); //printing returned value
 
 // example for array
-function getArray<type>(arr: type): type {
-    return arr;
+function getArray<type>(arr: type): type[] {
+    return new Array().concat(arr);
 }
 
 console.log(getArray<number[]>([1, 2, 3, 4, 5])); //calling function and setting number type for array value 

@@ -9,6 +9,6 @@ let storingFunctionVariable = genericsExample(12345); //calling function and pas
 console.log(storingFunctionVariable); //printing returned value
 // example for array
 function getArray(arr) {
-    return arr;
+    return new Array().concat(arr);
 }
 console.log(getArray([1, 2, 3, 4, 5])); //calling function and setting number type for array value 
